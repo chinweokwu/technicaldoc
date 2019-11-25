@@ -1,0 +1,44 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+
+#navbar{
+    width:250px;
+    height: 100%;
+    overflow: scroll;
+    display: block;
+    position:fixed;
+    left:0px;
+    top:0px;
+}
+
+#navbar ul{
+    list-style-type: none;
+    line-height: 60px;
+    margin:0px;
+    padding:0px;
+}
+
+#navbar ul li a{
+    border-bottom: 1px solid #111;
+    display:block;
+    width:180;
+    padding: 10px;
+    text-decoration: none;
+    color:black;
+    cursor:grab;
+}
+header{
+    font-weight: bold;
+    font-size:25px
+}
+
+
+#main-doc{
+    position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+
+}
